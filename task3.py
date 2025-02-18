@@ -1,6 +1,5 @@
 'Напишите программу, строящую график функции. Коэффициенты a,b,c и диапазон задаются с клавиатуры.'
 import matplotlib.pyplot as plt
-import matplotlib.colors as mcolors
 import random
 import math
 random.seed(207)
