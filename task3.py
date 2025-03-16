@@ -22,7 +22,7 @@ plt.show()
 
 'Напишите программу построения графика по имеющемуся дискретному набору известных значений.'
 print('\n' + 'Второе задание:')
-with open('C:/Users/equewww/Desktop/ww.txt') as file:
+with open('ww.txt') as file:
     s = file.read().splitlines()
     X2 = []
     Y2= []
