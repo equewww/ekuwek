@@ -1,5 +1,5 @@
 """Минимальный элемент заданного одномерного массива увеличить в 2 раза"""
-file= open('C:/Users/m2402714/Desktop/m.txt')
+file= open('m.txt')
 s = file.readlines()
 file.close()
 print(s)
@@ -12,7 +12,7 @@ for i in s:
 min_value = min(m)
 min_index = m.index(min_value)
 m[min_index] = 2 * min_value
-file= open('C:/Users/m2402714/Desktop/m.txt', 'w')
+file= open('m.txt', 'w')
 for k in m:
     file.write(str(k) + '\n')
 file.close()
