@@ -92,7 +92,7 @@ def visualize_results(datasets):
 datasets = generate_datasets()
 visualize_results(datasets)
 
-print("\nАнализ результатов (с учетом подавления предупреждений):")
+print("\nАнализ результатов:")
 print("1. HDBSCAN:")
 print("   - Лучше всего работает с кластерами произвольной формы")
 print("   - Автоматическое определение числа кластеров")
